@@ -33,8 +33,5 @@ This is an inventory management system specifically designed for Summerwill Bar 
 4. Add, edit, or remove items as needed
 5. Generate reports for inventory status
 
-## Support
-For any issues or questions, please contact the author.
-
 ## License
 This project is proprietary software. All rights reserved. 
