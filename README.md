@@ -8,7 +8,7 @@ This is an inventory management system specifically designed for Summerwill Bar 
 - Stock management
 - Product categorization
 - User-friendly interface
-- Real-time inventory updates
+- Real-time inventory update
 
 ## Requirements
 - XAMPP (Apache, MySQL, PHP)
