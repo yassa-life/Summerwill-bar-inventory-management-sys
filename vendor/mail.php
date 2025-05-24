@@ -43,15 +43,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'dilankah98@gmail.com';
-        $mail->Password = 'wqxz kmkm qexq inxo';
+        $mail->Username = 'your mail';
+        $mail->Password = 'your mail app pwd';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setFrom('dilankah98@gmail.com', 'SummerWill Report');
-        $mail->addCC('dgayashan98@gmail.com');
-        // $mail->addCC('harshithayasiru34@gmail.com');
-        // $mail->addAddress('hmdthilakh@gmail.com');
+        $mail->setFrom('');
+        // $mail->addCC('');
+        // $mail->addCC('');
+        // $mail->addAddress('');
 
         $mail->Subject = 'Generated PDF ' . $dateContent . ' ' . $type;
         $mail->Body = 'Please find the attached PDF for ' . $dateContent . '.';
